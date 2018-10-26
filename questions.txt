@@ -1,0 +1,152 @@
+Recap on Angular JS / ES6  & Angular 
+
+Day 1
+Angular JS (1.x)
+1.	Module is …………………… in angular js.
+2.	The 8 building blocks in Angular js are ………… , …………… , ………………….
+3.	Which block is considered as model in Angular js ……………………….?
+4.	………………. Is the glue between controller and view in angular JS?
+5.	…………….. allows to extend and create custom UI behavior in angular js?
+6.	………….. is used in angular js to apply data behavior 
+7.	................. is the service in angular js used to create instances ?
+8.	…………. Service responsible for processing directives.
+9.	RootScope always inherits scope in angular js (yes/no)
+10.	………….. in angular js  is used to store metadata?
+11.	Two way binding is achieved in angular js with …………….. directive?
+12.	---------- in Angular js allows to make ajax call  to remote server?
+13.	…………….. are configurable services in Angular js?
+14.	………………….  Return Promise in Angular js?
+
+
+
+
+
+
+
+
+
+
+
+
+RECAP on ES 6, Typescript & Angular 6
+ES 6 & Typescirpt
+15.	………………..in  ES6 works with block scope and ………… for creating static objects which cannot be redefined with in the block scope
+16.	……….., …………  are transpilers used to convert ES6 to ES5  
+17.	……….., ……………, …………. are access modifiers in typescript
+18.	npm stands for ………… and used for …………………….. and configured with …………………… file
+19.	…………. is replacement for anonymous functions in ES6 
+20.	…………… in ES6 allows multiline strings and JS expressions 
+21.	…………., …………. , ………….. are build automation tools runs on node  for angular apps
+22.	ES5 is used in ………………. and ES6/Typescript used in ……………………… framework 
+23.	………… in ES6 works with asynchronous data handling
+24.	Module is --------------------------------------------
+25.	………….. is the default data type in Typescript language
+26.	Typescript is superset of …………………………
+27.	………….. , …………… , ……………….. are additional features of Typescript compared to ES6.
+28.	For type safety , we use ………………. In Typesript.
+29.	Class extends only one class but can implement multiple interfaces in Typescript (true/false)
+30.	…………. Is the compiler for Typescript.
+31.	Can we do DOM manipulation with Typescript? (yes / no)
+
+
+
+
+
+
+
+
+Day 2: Recap
+32.	Angular framework is used to create …..................... ?
+33.	…………. Is the language used in Angular  for type safety
+34.	……..is the file to configure typescript compiler.
+35.	Component = -------------------- + -------------------- in Angular.
+36.	Angular always generates ………….. which will be converted to DOM tree for minimal and fast DOM updates
+37.	……… annotation is used to configure metadata  in angular.
+38.	………….. Annotation used to create angular component and …….. key used
+ for configuring component in @NgModule
+39.	Component invokes model from ………………. which contains business logic and (http) Ajax logic to invoke RESTful services .
+40.	Data always flows from ……………….. in angular  called …………………. architecture?
+41.	{{…..}} syntax  is called ………………
+42.	[name] syntax is called ………………..
+43.	#variable  is used for ………………………
+44.	(….) sytanx is called ………………….
+45.	 [(ngModel)] used for ……………….
+46.	*ngFor & *ngIf are  called ……………………. directives
+
+
+
+
+
+
+
+Day 3:
+47.	…………… is the developer tool used to debug angular application
+48.	To consume a component from a custom module, we need to configure in ……………
+49.	Can we import other modules from custom module to create module chain?
+50.	Lazy module loading for reusable, extensible, flexible, composable, testable modular driven architecture. (True/False)
+51.	How many ways inter-component communication is possible? What are they?
+52.	…………….annotation is used to pass state from child component to parent and ………. from parent to child.
+53.	…………… annotation used to invoke child component methods
+54.	……………… key in @Component is used to refer external html template
+55.	…………. ,………….., ………….., ………….. are ViewEncapsulation options.
+56.	………………. Supports nested and multiple asynchronously calls with error handling support
+57.	…… is used to handle stream of data asynchronously  with …………. library
+58.	…………….. in Angular 6 is decorated to service to make it as a global service.
+59.	@ViewChild, @Input and @Output works only between parent and child components (yes/no)
+60.	…………………. Annotation is used to invoke methods from multiple child components.
+61.	….......... type is used to create custom event &………….. method is invoked to bubble event in Angular?
+62.	……………….. directive is used to render template conditionally and …….. for iterating through collection. 
+63.	…………….. component directive is used to create templates in Angular ?
+64.	DI means ……………………………….. and angular supports only …………….. level injection
+65.	……., ……………. , …………..  are 3 ways to inject service.
+66.	…………….. setting is configured in @Injectable annotation for angular services in Angular 6
+Day 4:
+67.	To access data globally , we use …………………… .
+68.	The two states of Promise object is ………….., …………………..
+69.	………. Is the hook in component life cycle to implement change detection strategy
+70.	…………….. method invoked to force update the  component tree.
+71.	……………. Token is injected in component constructor to implement change detection
+72.	…………….. and …………… to subscribe and unsubscribe change detection
+73.	………………. Method in ChangeDetectorRef  for safe guard state changes 
+74.	…………….. Hook in Component life cycle used to handle model changes (Validations)
+75.	………………… container for shadow DOM 
+76.	………… is the life cycle hook to unsubscribe web socket connections or clean data
+77.	……………. Is the hook in which we can access DOM
+78.	To handle stream of data in  asynchronous way ,we use ……………….
+79.	Http service by default always return …………….. In angular?
+80.	Observable also can return Promise (yes/no)
+81.	…………… , …………….., ……………… are RX JS operators
+82.	……….. operator used to map to callback function in Observable.
+83.	………….. callbacks  registered in subscribe function of observable.
+84.	HttpHeaders used for ………………………………………
+85.	Can a component extend another component? (yes/no)
+Day 5:
+86.	………. Operator in Observable to implement delay.
+87.	………. Is used in Inter Component communication to produce data
+88.	Observable  to be convertible to promise using ………… 
+89.	………… module is used to work with reactive form controls
+90.	…………… module is to be extended to configure routing in angular?
+91.	……………. is the service used to read route state and access route parameters?
+92.	………….. is the method in router to invoke other route programmatically?
+93.	…………….. are the  interceptors used in angular routing.
+94.	…… guard is used to intercept before invoking child route
+95.	……………… interface we implement in guard to invoke ……………. Method before navigating to route.
+
+
+
+
+
+
+
+
+
+
+96.	…………. In Angular 6 allows to create HTML elements which can be used in other web projects
+97.	……….. type used to refer DOM node at shadow DOM and ……. To access element
+98.	To render  DOM element, we inject …………….. service.
+99.	…………. Unit testing framework used to test angular with …………. Tool to automate process.
+100.	…………………… used to perform E2E testing in angular.
+101.	……….. command is used to build angular application.
+102.	………………… is used to validate form (Form Builder)
+
+
